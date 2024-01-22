@@ -8,6 +8,9 @@
         "prepare": "tsc",
         "build": "tsc"
     },
+    "bin": {
+        "api-generator": "./bin/api-generator"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/BerryControl/api-generator.git"
