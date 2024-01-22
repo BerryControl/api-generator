@@ -35,8 +35,6 @@ function generateInterface(name: string, entityDef: any, apiSpec: Map<string, an
     for (var propertyName in properties) {
         var propertyType = `${properties[propertyName]['type']}`
 
-        console.log(propertyType)
-
         validatePropertyType(propertyType)
         propertyDefs.push([propertyName, propertyType])
     }
